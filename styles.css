@@ -1,0 +1,58 @@
+body {
+	background: black;
+}
+.postcard {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	background-color: white;
+}
+.postcard-header {
+	display: flex;
+	padding: 5px;
+	font-family: "Playwrite PL", cursive;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+	padding-top: 10px;
+}
+.postcard-header img {
+	width: 60px;
+	height: 70px;
+	padding-inline-end: 5px;
+	padding-top: 5px;
+}
+.postcard-body {
+	display: flex;
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+.body-left p {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	font-family: "Oswald", sans-serif;
+	border: none;
+	border-bottom: 1px grey solid;
+	border-radius: 5px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	font-family: "Oswald", sans-serif;
+	background-color: #c5c5c5;
+	padding: 5px;
+	border-radius: 15px;
+}
